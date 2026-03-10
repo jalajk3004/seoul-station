@@ -1,26 +1,37 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme inline {
+  --color-cafe-yellow: #d9a05b;
+  --color-cafe-dark-yellow: #b37e3d;
+  --color-cafe-beige: #f4eee3;
+  --color-cafe-light-beige: #fbf9f4;
+  --color-cafe-text-main: #3d4a41;
+  
+  --font-sans: var(--font-outfit), Arial, Helvetica, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+:root {
+  --background: var(--color-cafe-beige);
+  --foreground: var(--color-cafe-text-main);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Keeping the same soft aesthetic even in dark mode initially to match brand */
+    --background: var(--color-cafe-beige);
+    --foreground: var(--color-cafe-text-main);
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* Custom Utilities */
+.glass-effect {
+  background: rgba(244, 238, 227, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
