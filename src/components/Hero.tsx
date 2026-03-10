@@ -14,8 +14,8 @@ export default function Hero() {
                             <span className="text-cafe-beige opacity-90">Authentic & Fresh!</span>
                         </h1>
 
-                        <p className="text-lg text-cafe-light-beige/90 leading-relaxed font-light text-balance">
-                            We've brought the vibrant streets of Seoul straight to New Delhi. Our curated menu features everything from classic cold coffees to authentic gimbaps and spicy tteokbokki.
+                        <p className="text-lg text-cafe-light-beige/90 leading-relaxed font-light text-balance pb-2">
+                            A modern café atmosphere inspired by Korean culture and K-dramas, serving authentic Korean street food and Cuisine right here in Delhi.
                         </p>
 
                         <p className="text-lg text-cafe-light-beige/90 leading-relaxed font-light text-balance">

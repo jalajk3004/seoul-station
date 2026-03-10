@@ -14,15 +14,18 @@ export default function LocationPage() {
 
                     <div className="flex flex-col justify-center space-y-6">
                         <div>
-                            <h3 className="font-bold text-2xl text-cafe-dark-yellow mb-2">Seoul Station Cafe</h3>
-                            <p className="text-lg text-cafe-text-main/80 leading-relaxed">
-                                O Block, Lajpat Nagar II, Lajpat Nagar, New Delhi, Delhi 110024
+                            <h3 className="font-bold text-2xl text-cafe-dark-yellow mb-2">Seoul Station</h3>
+                            <p className="text-lg text-cafe-text-main/80 leading-relaxed max-w-sm">
+                                Lajpat Nagar II, Central Market Area<br />
+                                New Delhi, Delhi 110024, India
                             </p>
                         </div>
 
-                        <div className="flex items-center gap-3 text-lg text-cafe-dark-yellow font-medium bg-cafe-dark-yellow/5 p-4 rounded-xl inline-block w-fit">
-                            <Clock className="w-5 h-5" />
-                            <span>Opens 11:30 AM</span>
+                        <div className="flex flex-col gap-2">
+                            <div className="flex items-center gap-3 text-lg text-cafe-dark-yellow font-medium bg-cafe-dark-yellow/5 p-4 rounded-xl w-fit">
+                                <Clock className="w-5 h-5" />
+                                <span>11:30 AM – 10:45 PM (Daily)</span>
+                            </div>
                         </div>
                     </div>
                 </div>

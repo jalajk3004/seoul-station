@@ -17,6 +17,28 @@ export default function OurBeginningPage() {
                     <p className="leading-relaxed">
                         Today, we stand as a testament to that dream, offering an oasis where you can experience a piece of Seoul right in the heart of the city.
                     </p>
+
+                    <div className="mt-12 pt-8 border-t border-cafe-dark-yellow/20">
+                        <h2 className="text-3xl font-bold text-cafe-dark-yellow mb-6 text-center">Why Visit Seoul Station?</h2>
+                        <ul className="space-y-4 text-lg">
+                            <li className="flex items-start gap-3">
+                                <span className="text-cafe-dark-yellow text-xl mt-1">✨</span>
+                                <div><strong className="text-cafe-text-main">Authentic Korean street food experience</strong> with real recipes and flavors.</div>
+                            </li>
+                            <li className="flex items-start gap-3">
+                                <span className="text-cafe-dark-yellow text-xl mt-1">✨</span>
+                                <div><strong className="text-cafe-text-main">Korean-style café ambience</strong> that transports you straight to Seoul.</div>
+                            </li>
+                            <li className="flex items-start gap-3">
+                                <span className="text-cafe-dark-yellow text-xl mt-1">✨</span>
+                                <div><strong className="text-cafe-text-main">Popular spot for K-culture and K-drama fans</strong> to meet and vibe.</div>
+                            </li>
+                            <li className="flex items-start gap-3">
+                                <span className="text-cafe-dark-yellow text-xl mt-1">✨</span>
+                                <div><strong className="text-cafe-text-main">Ideal for casual dining</strong> with friends and family in a modern setting.</div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

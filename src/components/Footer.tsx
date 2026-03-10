@@ -19,13 +19,15 @@ export default function Footer() {
 
                 <div className="space-y-4">
                     <h4 className="font-semibold text-lg mb-4">Contact Us</h4>
-                    <div className="space-y-2 opacity-90 text-sm">
+                    <div className="space-y-4">
                         <p>You can reach us at <a href="mailto:hello@seoulstationcafe.in" className="underline hover:text-white transition-colors">hello@seoulstationcafe.in</a></p>
                         <p>Or give us a call at <a href="tel:09205107901" className="underline hover:text-white transition-colors">092051 07901</a></p>
                     </div>
                     <div className="pt-6 space-y-1 text-xs opacity-70">
-                        <p>SEOUL STATION CAFE HOLDINGS</p>
-                        <p>New Delhi, India</p>
+                        <p className="font-medium text-sm text-white mb-2">SEOUL STATION</p>
+                        <p>Lajpat Nagar II, Central Market Area</p>
+                        <p>New Delhi, Delhi 110024, India</p>
+                        <p className="pt-2">🕒 11:30 AM – 10:45 PM (Daily)</p>
                     </div>
                 </div>
 
