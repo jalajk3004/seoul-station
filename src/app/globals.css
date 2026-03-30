@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-cafe-yellow: #d9a05b;
-  --color-cafe-dark-yellow: #b37e3d;
-  --color-cafe-beige: #f4eee3;
-  --color-cafe-light-beige: #fbf9f4;
-  --color-cafe-text-main: #3d4a41;
+  --color-cafe-yellow: #ffdb00;
+  --color-cafe-dark-yellow: #ccaf00;
+  --color-cafe-red: #d32f2f;
+  --color-cafe-beige: #fffbeb;
+  --color-cafe-light-beige: #fffdf5;
+  --color-cafe-text-main: #171717;
   
   --font-sans: var(--font-outfit), Arial, Helvetica, sans-serif;
 }
@@ -31,7 +32,7 @@ body {
 
 /* Custom Utilities */
 .glass-effect {
-  background: rgba(244, 238, 227, 0.85);
+  background: rgba(255, 253, 240, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }

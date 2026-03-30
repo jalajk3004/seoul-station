@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ChevronDown, Menu, X } from "lucide-react";
 
 export default function Navbar() {
@@ -14,15 +15,20 @@ export default function Navbar() {
       onMouseLeave={() => setActiveMenu(null)}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer">
             <Link href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full bg-cafe-dark-yellow flex items-center justify-center text-cafe-beige font-bold text-xl">
-                S
+              <div className="relative w-24 h-24 overflow-hidden">
+                <Image
+                  src="/logoseoul.png"
+                  alt="Seoul Station Cafe Logo"
+                  fill
+                  className="object-contain"
+                />
               </div>
-              <span className="font-bold text-2xl tracking-tight text-cafe-dark-yellow">
-                Seoul Station Cafe
+              <span className="font-bold text-3xl tracking-tight text-cafe-dark-yellow hidden sm:block">
+                Seoul Station
               </span>
             </Link>
           </div>
@@ -79,7 +85,7 @@ export default function Navbar() {
 
             <Link
               href="/contact"
-              className="px-6 py-2 rounded-full bg-cafe-dark-yellow text-white font-medium hover:bg-cafe-dark-yellow/90 transition-colors shadow-md"
+              className="px-6 py-2 rounded-full bg-cafe-red text-white font-medium hover:bg-cafe-red/90 transition-colors shadow-md"
             >
               Contact Us
             </Link>
@@ -147,7 +153,7 @@ export default function Navbar() {
             <div className="pt-6">
               <Link
                 href="/contact"
-                className="block text-center px-6 py-4 rounded-full bg-cafe-dark-yellow text-white font-bold hover:bg-cafe-dark-yellow/90 transition-colors shadow-md"
+                className="block text-center px-6 py-4 rounded-full bg-cafe-red text-white font-bold hover:bg-cafe-red/90 transition-colors shadow-md"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Contact Us

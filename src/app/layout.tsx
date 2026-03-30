@@ -13,6 +13,9 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Seoul Station Cafe",
   description: "Authentic Korean Coffee and Food in New Delhi",
+  icons: {
+    icon: "/logoseoul.png",
+  },
 };
 
 export default function RootLayout({

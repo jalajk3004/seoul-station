@@ -43,7 +43,7 @@ export default function Products() {
 
                 <Link
                     href="#menu"
-                    className="inline-block bg-cafe-light-beige text-cafe-dark-yellow px-8 py-4 font-semibold hover:bg-white transition-colors duration-300 shadow-xl"
+                    className="inline-block bg-cafe-red text-white px-12 py-4 font-semibold rounded-full hover:bg-cafe-red/90 transition-colors duration-300 shadow-xl"
                 >
                     View Full Menu
                 </Link>
